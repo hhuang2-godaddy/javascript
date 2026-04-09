@@ -1,5 +1,43 @@
 # @godaddy/react
 
+## 1.0.35
+
+### Patch Changes
+
+- 8d3f2c2: Update commerce api skill to utilize godaddy cli as api source
+
+## 1.0.34
+
+### Patch Changes
+
+- 57d6115: Add commerce api skill
+
+## 1.0.33
+
+### Patch Changes
+
+- 353dc8b: Add support for enAu localizations
+- Updated dependencies [353dc8b]
+  - @godaddy/localizations@1.0.9
+
+## 1.0.32
+
+### Patch Changes
+
+- ed3cbef: Fix bug with large leadTimes and add pickupSlotInterval to uncouple leadTime from time slot generation
+
+## 1.0.31
+
+### Patch Changes
+
+- b3c0dad: Fix MercadoPago amount conversion from minor units to major units. The SDK expects amounts in major units (e.g., 90.00 BRL) but we were sending minor units (e.g., 9000 cents).
+
+## 1.0.30
+
+### Patch Changes
+
+- c1ebb52: Format local pickup times to store timezone
+
 ## 1.0.29
 
 ### Patch Changes
